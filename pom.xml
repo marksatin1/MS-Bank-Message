@@ -24,7 +24,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+			<artifactId>spring-cloud-stream-binder-kafka</artifactId>
 		</dependency>
 
 		<dependency>
@@ -62,7 +62,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>marksatin1/${project.artifactId}:s13</image>
+						<image>marksatin1/${project.artifactId}:s14</image>
 					</to>
 				</configuration>
 			</plugin>
